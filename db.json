@@ -1,0 +1,179 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Emma Johnson",
+        "email": "emma.johnson@example.com",
+        "course": "Computer Science",
+        "age": 22
+      },
+      {
+        "id": 2,
+        "name": "Liam Smith",
+        "email": "liam.smith@example.com",
+        "course": "Data Science",
+        "age": 23
+      },
+      {
+        "id": 3,
+        "name": "Olivia Brown",
+        "email": "olivia.brown@example.com",
+        "course": "Software Engineering",
+        "age": 21
+      },
+      {
+        "id": 4,
+        "name": "Noah Davis",
+        "email": "noah.davis@example.com",
+        "course": "Artificial Intelligence",
+        "age": 24
+      },
+      {
+        "id": 5,
+        "name": "Ava Miller",
+        "email": "ava.miller@example.com",
+        "course": "Cybersecurity",
+        "age": 22
+      },
+      {
+        "id": 6,
+        "name": "Ethan Wilson",
+        "email": "ethan.wilson@example.com",
+        "course": "Network Engineering",
+        "age": 25
+      },
+      {
+        "id": 7,
+        "name": "Sophia Martinez",
+        "email": "sophia.martinez@example.com",
+        "course": "Web Development",
+        "age": 20
+      },
+      {
+        "id": 8,
+        "name": "Mason Anderson",
+        "email": "mason.anderson@example.com",
+        "course": "Machine Learning",
+        "age": 23
+      },
+      {
+        "id": 9,
+        "name": "Isabella Taylor",
+        "email": "isabella.taylor@example.com",
+        "course": "Cloud Computing",
+        "age": 22
+      },
+      {
+        "id": 10,
+        "name": "James Thomas",
+        "email": "james.thomas@example.com",
+        "course": "Blockchain Technology",
+        "age": 24
+      },
+      {
+        "id": 11,
+        "name": "Charlotte Harris",
+        "email": "charlotte.harris@example.com",
+        "course": "Mobile App Development",
+        "age": 21
+      },
+      {
+        "id": 12,
+        "name": "Benjamin Clark",
+        "email": "benjamin.clark@example.com",
+        "course": "Quantum Computing",
+        "age": 25
+      },
+      {
+        "id": 13,
+        "name": "Amelia Rodriguez",
+        "email": "amelia.rodriguez@example.com",
+        "course": "Game Development",
+        "age": 22
+      },
+      {
+        "id": 14,
+        "name": "Lucas Lewis",
+        "email": "lucas.lewis@example.com",
+        "course": "Robotics Engineering",
+        "age": 23
+      },
+      {
+        "id": 15,
+        "name": "Harper Lee",
+        "email": "harper.lee@example.com",
+        "course": "Internet of Things",
+        "age": 20
+      },
+      {
+        "id": 16,
+        "name": "Henry Walker",
+        "email": "henry.walker@example.com",
+        "course": "Big Data Analytics",
+        "age": 24
+      },
+      {
+        "id": 17,
+        "name": "Evelyn Hall",
+        "email": "evelyn.hall@example.com",
+        "course": "DevOps Engineering",
+        "age": 22
+      },
+      {
+        "id": 18,
+        "name": "Alexander Young",
+        "email": "alexander.young@example.com",
+        "course": "Computer Graphics",
+        "age": 23
+      },
+      {
+        "id": 19,
+        "name": "Abigail King",
+        "email": "abigail.king@example.com",
+        "course": "Natural Language Processing",
+        "age": 21
+      },
+      {
+        "id": 20,
+        "name": "Michael Scott",
+        "email": "michael.scott@example.com",
+        "course": "Augmented Reality",
+        "age": 25
+      },
+      {
+        "id": 21,
+        "name": "Emily Wright",
+        "email": "emily.wright@example.com",
+        "course": "Cybercrime Investigation",
+        "age": 22
+      },
+      {
+        "id": 22,
+        "name": "Daniel Green",
+        "email": "daniel.green@example.com",
+        "course": "Embedded Systems",
+        "age": 24
+      },
+      {
+        "id": 23,
+        "name": "Madison Baker",
+        "email": "madison.baker@example.com",
+        "course": "Virtual Reality Design",
+        "age": 21
+      },
+      {
+        "id": 24,
+        "name": "Sebastian Hill",
+        "email": "sebastian.hill@example.com",
+        "course": "Computer Vision",
+        "age": 23
+      },
+      {
+        "id": 25,
+        "name": "Aria Lopez",
+        "email": "aria.lopez@example.com",
+        "course": "Quantum Cryptography",
+        "age": 22
+      }
+    ]
+  }

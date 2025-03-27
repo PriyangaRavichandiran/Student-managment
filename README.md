@@ -1,70 +1,156 @@
-# Getting Started with Create React App
+# Student Management React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+A full-featured Student Management application built with React, utilizing React Router for navigation, React Bootstrap for styling, and JSON Server as a mock backend for development.
+
+## Features
+- ✅ View paginated list of students
+- ✅ Search and filter students by name, email, or course
+- ✅ Add new students with comprehensive form validation
+- ✅ Edit existing student details
+- ✅ Delete students from the list
+- ✅ Responsive design with React Bootstrap
+- ✅ Error handling and loading states
+- ✅ Client-side form validation
+- ✅ Mock backend with JSON Server
+
+## Project Structure
+```
+student-management-app/
+│
+├── public/                 # Public assets
+├── src/
+│   ├── components/         # Reusable React components
+│   │   ├── Navigation.js
+│   │   └── StudentForm.js
+│   │
+│   ├── pages/              # Page components
+│   │   ├── ListStudentsPage.js
+│   │   ├── AddStudentPage.js
+│   │   └── EditStudentPage.js
+│   │
+│   ├── services/           # API service
+│   │   └── StudentService.js
+│   │
+│   ├── App.js              # Main application routing
+│   └── App.css             # Global styles
+│
+├── db.json                 # Mock backend data
+└── package.json            # Project dependencies and scripts
+```
+
+## Prerequisites
+- Node.js (v14 or later)
+- npm (v6 or later)
+
+## Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/student-management-app.git
+cd student-management-app
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Install Global Dependencies
+```bash
+npm install -g json-server concurrently
+```
+
+## Configuration
+
+### Mock Backend (JSON Server)
+- The application uses JSON Server to simulate a backend API
+- Initial student data is stored in `db.json`
+- JSON Server will create a mock REST API on `http://localhost:3001`
+
+### Proxy Configuration
+The `package.json` includes a proxy setting to handle API requests during development:
+```json
+"proxy": "http://localhost:3001"
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+### Development
+```bash
+npm run dev
+```
+- Starts React development server on `http://localhost:3000`
+- Starts JSON Server on `http://localhost:3001`
+- Runs both concurrently
 
-### `npm start`
+### Start React App
+```bash
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Start Mock Backend
+```bash
+npm run server
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Build for Production
+```bash
+npm run build
+```
 
-### `npm test`
+## API Endpoints
+JSON Server provides the following RESTful endpoints:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `GET /students`: Retrieve all students
+- `GET /students/:id`: Retrieve a specific student
+- `POST /students`: Create a new student
+- `PUT /students/:id`: Update an existing student
+- `DELETE /students/:id`: Delete a student
 
-### `npm run build`
+## Technologies Used
+- React
+- React Router
+- React Bootstrap
+- Axios
+- JSON Server
+- JavaScript (ES6+)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Form Validation
+The application includes comprehensive form validation:
+- Name: Required, minimum 2 characters
+- Email: Required, valid email format
+- Course: Required
+- Age: Required, between 16 and 100
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## State Management
+- Local component state using React Hooks
+- Centralized service for API interactions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Potential Improvements
+- Implement real backend integration
+- Add user authentication
+- Enhance error handling
+- Add comprehensive unit and integration tests
+- Implement more advanced filtering and sorting
 
-### `npm run eject`
+## Troubleshooting
+- Ensure all dependencies are installed
+- Check that JSON Server is running on port 3001
+- Verify network connectivity
+- Check browser console for any errors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
+Your Name - priyanga2941@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/your-username/student-management-app](https://github.com/your-username/student-management-app)
