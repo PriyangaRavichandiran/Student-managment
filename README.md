@@ -153,4 +153,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Your Name - priyanga2941@gmail.com
 
-Project Link: [https://github.com/your-username/student-management-app](https://github.com/your-username/student-management-app)
+Project Link: [(https://github.com/PriyangaRavichandiran/Student-managment/)](https://github.com/PriyangaRavichandiran/Student-managment/)
