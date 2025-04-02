@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Base URL for JSON Server
-const API_BASE_URL = 'http://localhost:3001/students';
+ const API_BASE_URL = 'https://67ed3a5c4387d9117bbcd3a0.mockapi.io/students';
+
 
 class StudentService {
   // Get all students
